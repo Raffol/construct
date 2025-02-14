@@ -1,0 +1,333 @@
+body{
+    background-image: url("img/cross-stitch-pattern.jpg");
+}
+header{
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    opacity: 80%;
+    display: flex;
+
+    gap: 50px;
+}
+.materials{
+    display: flex;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: black;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.salesmaterials{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.location{
+    display: flex;
+    font-size: 24px;
+}
+.adress{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.contacts{
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 30px;
+   }
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 80px;
+}
+h3{
+    font-size: 36px;
+    text-align: center;
+}
+h4{
+    font-size: 40px;
+}
+.aeratedconcretediv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.aeratedconcrete1 img{
+    width: 321px;
+    height: 228px;
+}
+.aeratedconcrete1{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.aeratedconcrete2 img{
+
+    width: 321px;
+    height: 228px;
+}
+.aeratedconcrete2{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.brickdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.brick img{
+    width: 321px;
+    height: 228px;
+}
+.brick{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reinforcementdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.reinforcement img{
+    width: 321px;
+    height: 228px;
+    gap: 20px;
+}
+.reinforcement{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}.cementdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cement img{
+    width: 321px;
+    height: 228px;
+}
+.cement{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.slatediv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.slate1 img{
+    width: 321px;
+    height: 228px;
+}
+.slate1{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.slate2 img{
+    width: 321px;
+    height: 228px;
+}
+.slate2{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lumberdiv{
+    display: flex;
+    justify-content: center;
+}
+.lumber img{
+    width: 321px;
+    height: 228px;
+    gap: 20px;
+}
+.lumber{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.circlesdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.circles img{
+    width: 321px;
+    height: 228px;
+    gap: 15px;
+}
+.circles{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.deliverydiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.delivery{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.delivery img{
+    width: 321px;
+    height: 228px;
+}
+.consultationdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.consultation{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.consultation img{
+    width: 321px;
+    height: 228px;
+}
+footer{
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    opacity: 80%;
+    display: flex;
+    gap: 50px;
+}
+footer p{
+    margin-left: 100px;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    .materials {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .salesmaterials {
+        font-size: 14px;
+        margin-left: 0;
+        text-align: right;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+
+    .adress {
+        margin-left: 0;
+    }
+
+    .contacts {
+        margin: 10px;
+        padding: 10px;
+        width: 90%; /* Увеличиваем ширину */
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+
+    h1, h2 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .aeratedconcrete1 img, .aeratedconcrete2 img, .brick img, .reinforcement img, .cement img, .slate1 img, .slate2 img, .lumber img, .circles img, .delivery img, .consultation img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .aeratedconcrete1, .aeratedconcrete2, .brick, .reinforcement, .cement, .slate1, .slate2, .lumber, .circles, .delivery, .consultation {
+        width: 400px;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    footer p {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .materials {
+        font-size: 24px;
+    }
+
+    .salesmaterials {
+        font-size: 12px;
+    }
+
+    .location {
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .contacts {
+        width: 100%; /* Увеличиваем ширину */
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+}
