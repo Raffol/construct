@@ -221,7 +221,7 @@ h4{
     padding: 5px;
 }
 .consultation img{
-    width: 290px;
+    width: 200px;
     height: 189px;
 }
 footer{
@@ -288,7 +288,7 @@ footer p{
         width: 350px;
         height: 280px;
         padding: 10px;
-        margin-left: 100px;
+        /*margin-left: 100px;*/
     }
     .delivery img{
         width: 200px;
@@ -297,7 +297,7 @@ footer p{
     .consultationdiv img{
         width: 240px;
         height: 140px;
-        padding-top: 55px;
+        /*padding-top: 55px;*/
     }
     .delivery p{
         font-size: 10px;
